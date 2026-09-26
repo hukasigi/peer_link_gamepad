@@ -1,6 +1,6 @@
 /* Automatically generated file; DO NOT EDIT */
 /* Espressif IoT Development Framework Linker Script */
-/* Generated from: /home/hukasigi/Documents/PlatformIO/Projects/robocon-esp32s3-controller-1/.pio/build/seeed_xiao_esp32s3/esp-idf/esp_system/ld/sections.ld.in */
+/* Generated from: /home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/.pio/build/seeed_xiao_esp32s3/esp-idf/esp_system/ld/sections.ld.in */
 
 /*
  * SPDX-FileCopyrightText: 2021 Espressif Systems (Shanghai) CO LTD

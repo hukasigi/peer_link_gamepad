@@ -318,7 +318,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_main_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/hukasigi/.platformio/packages/tool-cmake/bin/cmake --regenerate-during-build -S/home/hukasigi/.platformio/packages/framework-espidf/components/bootloader/subproject -B/home/hukasigi/Documents/PlatformIO/Projects/robocon-esp32s3-controller-1/.pio/build/seeed_xiao_esp32s3/bootloader
+  command = /home/hukasigi/.platformio/packages/tool-cmake/bin/cmake --regenerate-during-build -S/home/hukasigi/.platformio/packages/framework-espidf/components/bootloader/subproject -B/home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/.pio/build/seeed_xiao_esp32s3/bootloader
   description = Re-running CMake...
   generator = 1
 

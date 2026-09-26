@@ -7736,7 +7736,7 @@
                 ],
                 "depends_on": "IDF_TARGET_ESP32S3 || IDF_TARGET_ESP32P4 || IDF_TARGET_ESP32S31",
                 "help": null,
-                "id": "esp-speech-recognition-model-data-path-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp-sr-Kconfig.projbuild-3",
+                "id": "esp-speech-recognition-model-data-path-managed_components-espressif__esp-sr-Kconfig.projbuild-3",
                 "name": "MODEL_DATA_PATH",
                 "title": "model data path",
                 "type": "choice"
@@ -7756,7 +7756,7 @@
                 ],
                 "depends_on": null,
                 "help": "Select the afe interface to be used.",
-                "id": "esp-speech-recognition-afe-interface-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp-sr-Kconfig.projbuild-16",
+                "id": "esp-speech-recognition-afe-interface-managed_components-espressif__esp-sr-Kconfig.projbuild-16",
                 "name": "AFE_INTERFACE_SEL",
                 "title": "Afe interface",
                 "type": "choice"
@@ -7786,7 +7786,7 @@
                 ],
                 "depends_on": null,
                 "help": "Select the noise suppression model to be loaded.",
-                "id": "esp-speech-recognition-select-noise-suppression-model-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp-sr-Kconfig.projbuild-27",
+                "id": "esp-speech-recognition-select-noise-suppression-model-managed_components-espressif__esp-sr-Kconfig.projbuild-27",
                 "name": "SR_NSN_MODEL_LOAD",
                 "title": "Select noise suppression model",
                 "type": "choice"
@@ -7816,7 +7816,7 @@
                 ],
                 "depends_on": null,
                 "help": "Select the vad model to be loaded.",
-                "id": "esp-speech-recognition-select-voice-activity-detection-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp-sr-Kconfig.projbuild-41",
+                "id": "esp-speech-recognition-select-voice-activity-detection-managed_components-espressif__esp-sr-Kconfig.projbuild-41",
                 "name": "SR_VADN_MODEL_LOAD",
                 "title": "Select voice activity detection",
                 "type": "choice"
@@ -7865,7 +7865,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "esp-speech-recognition-load-multiple-wake-words-wakenet9s--home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp-sr-Kconfig.projbuild-56",
+                "id": "esp-speech-recognition-load-multiple-wake-words-wakenet9s--managed_components-espressif__esp-sr-Kconfig.projbuild-56",
                 "title": "Load Multiple Wake Words (WakeNet9s)",
                 "type": "menu"
             },
@@ -8473,7 +8473,7 @@
                     }
                 ],
                 "depends_on": "IDF_TARGET_ESP32S3 || IDF_TARGET_ESP32P4 || IDF_TARGET_ESP32S31 || IDF_TARGET_ESP32",
-                "id": "esp-speech-recognition-load-multiple-wake-words-wakenet9--home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp-sr-Kconfig.projbuild-76",
+                "id": "esp-speech-recognition-load-multiple-wake-words-wakenet9--managed_components-espressif__esp-sr-Kconfig.projbuild-76",
                 "title": "Load Multiple Wake Words (WakeNet9)",
                 "type": "menu"
             },
@@ -8552,7 +8552,7 @@
                 ],
                 "depends_on": null,
                 "help": "Select the Chinese Speech Commands Model.",
-                "id": "esp-speech-recognition-chinese-speech-commands-model-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp-sr-Kconfig.projbuild-321",
+                "id": "esp-speech-recognition-chinese-speech-commands-model-managed_components-espressif__esp-sr-Kconfig.projbuild-321",
                 "name": "CHINESE_SR_MN_MODEL_SEL",
                 "title": "Chinese Speech Commands Model",
                 "type": "choice"
@@ -8602,7 +8602,7 @@
                 ],
                 "depends_on": null,
                 "help": "Select the English Speech Commands Model.",
-                "id": "esp-speech-recognition-english-speech-commands-model-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp-sr-Kconfig.projbuild-356",
+                "id": "esp-speech-recognition-english-speech-commands-model-managed_components-espressif__esp-sr-Kconfig.projbuild-356",
                 "name": "ENGLISH_SR_MN_MODEL_SEL",
                 "title": "English Speech Commands Model",
                 "type": "choice"
@@ -10611,7 +10611,7 @@
                     }
                 ],
                 "depends_on": "SR_MN_CN_MULTINET4_5_SINGLE_RECOGNITION || SR_MN_CN_MULTINET2_SINGLE_RECOGNITION || SR_MN_CN_MULTINET4_5_SINGLE_RECOGNITION_QUANT8 || SR_MN_CN_MULTINET5_RECOGNITION_QUANT8",
-                "id": "esp-speech-recognition-add-chinese-speech-commands-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp-sr-Kconfig.projbuild-379",
+                "id": "esp-speech-recognition-add-chinese-speech-commands-managed_components-espressif__esp-sr-Kconfig.projbuild-379",
                 "title": "Add Chinese speech commands",
                 "type": "menu"
             },
@@ -12619,7 +12619,7 @@
                     }
                 ],
                 "depends_on": "SR_MN_EN_MULTINET5_SINGLE_RECOGNITION_QUANT8",
-                "id": "esp-speech-recognition-add-english-speech-commands-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp-sr-Kconfig.projbuild-1383",
+                "id": "esp-speech-recognition-add-english-speech-commands-managed_components-espressif__esp-sr-Kconfig.projbuild-1383",
                 "title": "Add English speech commands",
                 "type": "menu"
             },
@@ -12635,7 +12635,7 @@
             }
         ],
         "depends_on": null,
-        "id": "esp-speech-recognition-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp-sr-Kconfig.projbuild-1",
+        "id": "esp-speech-recognition-managed_components-espressif__esp-sr-Kconfig.projbuild-1",
         "title": "ESP Speech Recognition",
         "type": "menu"
     },
@@ -12676,7 +12676,7 @@
                 ],
                 "depends_on": null,
                 "help": "Claiming type to be used.",
-                "id": "esp-rainmaker-config-claiming-type-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-3",
+                "id": "esp-rainmaker-config-claiming-type-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-3",
                 "name": "ESP_RMAKER_CLAIM_TYPE",
                 "title": "Claiming Type",
                 "type": "choice"
@@ -12716,7 +12716,7 @@
                 ],
                 "depends_on": "ESP_RMAKER_SELF_CLAIM || ESP_RMAKER_ASSISTED_CLAIM",
                 "help": "Cryptographic algorithm to use for key generation during claiming.\nECDSA is now the default since it offers smaller key sizes and faster operations.\nTo revert to the only supported key type earlier (RSA), change this config.",
-                "id": "esp-rainmaker-config-claiming-key-type-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-45",
+                "id": "esp-rainmaker-config-claiming-key-type-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-45",
                 "name": "ESP_RMAKER_CLAIM_KEY_TYPE",
                 "title": "Claiming Key Type",
                 "type": "choice"
@@ -12756,7 +12756,7 @@
                 ],
                 "depends_on": null,
                 "help": "ESP devices support multiple ways to secure store the PKI credentials.\nCurrently, NVS and ESP Secure Cert Manager are supported.\nThe default behaviour is to access the PKI credentials from the NVS.\nConsult the ESP-TLS documentation in ESP-IDF Programming guide for more details.",
-                "id": "esp-rainmaker-config-choose-pki-credentials-access-method-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-72",
+                "id": "esp-rainmaker-config-choose-pki-credentials-access-method-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-72",
                 "name": "ESP_RMAKER_CHOOSE_PKI_ACCESS_METHOD",
                 "title": "Choose PKI credentials access method",
                 "type": "choice"
@@ -13063,7 +13063,7 @@
                 ],
                 "depends_on": "ESP_RMAKER_LOCAL_CTRL_FEATURE_ENABLE",
                 "help": "Security type to be selected for local control.",
-                "id": "esp-rainmaker-config-local-control-security-type-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-331",
+                "id": "esp-rainmaker-config-local-control-security-type-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-331",
                 "name": "ESP_RMAKER_LOCAL_CTRL_SECURITY",
                 "title": "Local Control Security Type",
                 "type": "choice"
@@ -13123,7 +13123,7 @@
                 ],
                 "depends_on": null,
                 "help": "UART to be selected for serial console.",
-                "id": "esp-rainmaker-config-uart-for-console-input-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-376",
+                "id": "esp-rainmaker-config-uart-for-console-input-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-376",
                 "name": "ESP_RMAKER_CONSOLE_UART_NUM",
                 "title": "UART for console input",
                 "type": "choice"
@@ -13380,7 +13380,7 @@
                         ],
                         "depends_on": null,
                         "help": "Protocol to be used for OTA Update",
-                        "id": "esp-rainmaker-config-esp-rainmaker-ota-config-ota-update-protocol-type-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-571",
+                        "id": "esp-rainmaker-config-esp-rainmaker-ota-config-ota-update-protocol-type-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-571",
                         "name": "ESP_RMAKER_OTA_TYPE",
                         "title": "OTA Update Protocol Type",
                         "type": "choice"
@@ -13440,7 +13440,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "esp-rainmaker-config-esp-rainmaker-ota-config-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-420",
+                "id": "esp-rainmaker-config-esp-rainmaker-ota-config-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-420",
                 "title": "ESP RainMaker OTA Config",
                 "type": "menu"
             },
@@ -13458,7 +13458,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "esp-rainmaker-config-esp-rainmaker-time-service-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-643",
+                "id": "esp-rainmaker-config-esp-rainmaker-time-service-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-643",
                 "title": "ESP RainMaker Time Service",
                 "type": "menu"
             },
@@ -13489,7 +13489,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "esp-rainmaker-config-esp-rainmaker-scheduling-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-656",
+                "id": "esp-rainmaker-config-esp-rainmaker-scheduling-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-656",
                 "title": "ESP RainMaker Scheduling",
                 "type": "menu"
             },
@@ -13520,7 +13520,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "esp-rainmaker-config-esp-rainmaker-scenes-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-685",
+                "id": "esp-rainmaker-config-esp-rainmaker-scenes-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-685",
                 "title": "ESP RainMaker Scenes",
                 "type": "menu"
             },
@@ -13541,7 +13541,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "esp-rainmaker-config-esp-rainmaker-connectivity-service-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-705",
+                "id": "esp-rainmaker-config-esp-rainmaker-connectivity-service-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-705",
                 "title": "ESP RainMaker Connectivity Service",
                 "type": "menu"
             },
@@ -13594,7 +13594,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "esp-rainmaker-config-esp-rainmaker-command-response-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-721",
+                "id": "esp-rainmaker-config-esp-rainmaker-command-response-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-721",
                 "title": "ESP RainMaker Command-Response",
                 "type": "menu"
             },
@@ -13623,14 +13623,14 @@
                 ],
                 "depends_on": null,
                 "help": "Network protocol type over which the ESP RainMaker will run.",
-                "id": "esp-rainmaker-config-esp-rainmaker-network-type-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-760",
+                "id": "esp-rainmaker-config-esp-rainmaker-network-type-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-760",
                 "name": "ESP_RMAKER_NETWORK_PROTOCOL_TYPE",
                 "title": "ESP RainMaker Network Type",
                 "type": "choice"
             }
         ],
         "depends_on": null,
-        "id": "esp-rainmaker-config-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-1",
+        "id": "esp-rainmaker-config-managed_components-espressif__esp_rainmaker-Kconfig.projbuild-1",
         "title": "ESP RainMaker Config",
         "type": "menu"
     },
@@ -44295,7 +44295,7 @@
                                 ],
                                 "depends_on": "CHERRYUSB_DEVICE && CHERRYUSB",
                                 "help": null,
-                                "id": "component-config-cherryusb-configuration-enable-usb-device-mode-select-usb-device-speed-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-cherry-embedded__cherryusb-Kconfig-13",
+                                "id": "component-config-cherryusb-configuration-enable-usb-device-mode-select-usb-device-speed-managed_components-cherry-embedded__cherryusb-Kconfig-13",
                                 "name": null,
                                 "title": "Select usb device speed",
                                 "type": "choice"
@@ -44575,7 +44575,7 @@
                                 ],
                                 "depends_on": "CHERRYUSB_DEVICE && CHERRYUSB",
                                 "help": null,
-                                "id": "component-config-cherryusb-configuration-enable-usb-device-mode-select-usb-device-ip-and-some-ip-need-config-in-usb_config-h-please-check-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-cherry-embedded__cherryusb-Kconfig-24",
+                                "id": "component-config-cherryusb-configuration-enable-usb-device-mode-select-usb-device-ip-and-some-ip-need-config-in-usb_config-h-please-check-managed_components-cherry-embedded__cherryusb-Kconfig-24",
                                 "name": null,
                                 "title": "Select usb device ip, and some ip need config in usb_config.h, please check",
                                 "type": "choice"
@@ -44905,7 +44905,7 @@
                                 ],
                                 "depends_on": "CHERRYUSB_DEVICE && CHERRYUSB",
                                 "help": null,
-                                "id": "component-config-cherryusb-configuration-enable-usb-device-mode-select-usb-device-template-please-select-class-driver-first-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-cherry-embedded__cherryusb-Kconfig-162",
+                                "id": "component-config-cherryusb-configuration-enable-usb-device-mode-select-usb-device-template-please-select-class-driver-first-managed_components-cherry-embedded__cherryusb-Kconfig-162",
                                 "name": null,
                                 "title": "Select usb device template, please select class driver first",
                                 "type": "choice"
@@ -45187,7 +45187,7 @@
                                 ],
                                 "depends_on": "CHERRYUSB_HOST && CHERRYUSB",
                                 "help": null,
-                                "id": "component-config-cherryusb-configuration-enable-usb-host-mode-select-usb-host-ip-and-some-ip-need-config-in-usb_config-h-please-check-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-cherry-embedded__cherryusb-Kconfig-239",
+                                "id": "component-config-cherryusb-configuration-enable-usb-host-mode-select-usb-host-ip-and-some-ip-need-config-in-usb_config-h-please-check-managed_components-cherry-embedded__cherryusb-Kconfig-239",
                                 "name": null,
                                 "title": "Select usb host ip, and some ip need config in usb_config.h, please check",
                                 "type": "choice"
@@ -45476,7 +45476,7 @@
                                     }
                                 ],
                                 "depends_on": "CHERRYUSB_HOST && CHERRYUSB",
-                                "id": "component-config-cherryusb-configuration-enable-usb-host-mode-select-usb-host-template-please-select-class-driver-first-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-cherry-embedded__cherryusb-Kconfig-417",
+                                "id": "component-config-cherryusb-configuration-enable-usb-host-mode-select-usb-host-template-please-select-class-driver-first-managed_components-cherry-embedded__cherryusb-Kconfig-417",
                                 "title": "Select USB host template, please select class driver first",
                                 "type": "menu"
                             }
@@ -45524,7 +45524,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-cjson-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__cjson-Kconfig-1",
+                "id": "component-config-cjson-managed_components-espressif__cjson-Kconfig-1",
                 "title": "cJSON",
                 "type": "menu"
             },
@@ -45565,7 +45565,7 @@
                         ],
                         "depends_on": null,
                         "help": "An ANSI C version could be used for verification and debug purpose,\nor for chips where an optimized version is not available.",
-                        "id": "component-config-dsp-library-dsp-optimization-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp-dsp-Kconfig-9",
+                        "id": "component-config-dsp-library-dsp-optimization-managed_components-espressif__esp-dsp-Kconfig-9",
                         "name": "DSP_OPTIMIZATION",
                         "title": "DSP Optimization",
                         "type": "choice"
@@ -45655,7 +45655,7 @@
                         ],
                         "depends_on": null,
                         "help": "This is default FFT size for internal usage.",
-                        "id": "component-config-dsp-library-maximum-fft-length-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp-dsp-Kconfig-29",
+                        "id": "component-config-dsp-library-maximum-fft-length-managed_components-espressif__esp-dsp-Kconfig-29",
                         "name": "DSP_MAX_FFT_SIZE",
                         "title": "Maximum FFT length",
                         "type": "choice"
@@ -45672,7 +45672,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-dsp-library-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp-dsp-Kconfig-1",
+                "id": "component-config-dsp-library-managed_components-espressif__esp-dsp-Kconfig-1",
                 "title": "DSP Library",
                 "type": "menu"
             },
@@ -45975,7 +45975,7 @@
                         ],
                         "depends_on": "!FREERTOS_UNICORE",
                         "help": "Allows setting the core affinity of the Modbus controller task, i.e. whether the task is pinned to\nparticular CPU, or allowed to run on any CPU.",
-                        "id": "component-config-modbus-configuration-modbus-task-affinity-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp-modbus-Kconfig-191",
+                        "id": "component-config-modbus-configuration-modbus-task-affinity-managed_components-espressif__esp-modbus-Kconfig-191",
                         "name": "FMB_PORT_TASK_AFFINITY",
                         "title": "Modbus task affinity",
                         "type": "choice"
@@ -46134,7 +46134,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-modbus-configuration-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp-modbus-Kconfig-1",
+                "id": "component-config-modbus-configuration-managed_components-espressif__esp-modbus-Kconfig-1",
                 "title": "Modbus configuration",
                 "type": "menu"
             },
@@ -46177,7 +46177,7 @@
                                 ],
                                 "depends_on": "ZB_ENABLED",
                                 "help": "Configure the Zigbee device type",
-                                "id": "component-config-zigbee-zigbee-enable-configure-the-zigbee-device-type-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp-zigbee-lib-Kconfig-9",
+                                "id": "component-config-zigbee-zigbee-enable-configure-the-zigbee-device-type-managed_components-espressif__esp-zigbee-lib-Kconfig-9",
                                 "name": "ZB_DEVICE_TYPE",
                                 "title": "Configure the Zigbee device type",
                                 "type": "choice"
@@ -46207,7 +46207,7 @@
                                 ],
                                 "depends_on": "ZB_ENABLED",
                                 "help": null,
-                                "id": "component-config-zigbee-zigbee-enable-configure-the-zigbee-radio-type-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp-zigbee-lib-Kconfig-34",
+                                "id": "component-config-zigbee-zigbee-enable-configure-the-zigbee-radio-type-managed_components-espressif__esp-zigbee-lib-Kconfig-34",
                                 "name": "ZB_RADIO_TYPE",
                                 "title": "Configure the Zigbee radio type",
                                 "type": "choice"
@@ -46226,7 +46226,7 @@
                                     }
                                 ],
                                 "depends_on": "ZB_ENABLED",
-                                "id": "component-config-zigbee-zigbee-enable-zigbee-example-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp-zigbee-lib-Kconfig-52",
+                                "id": "component-config-zigbee-zigbee-enable-zigbee-example-managed_components-espressif__esp-zigbee-lib-Kconfig-52",
                                 "title": "Zigbee Example",
                                 "type": "menu"
                             },
@@ -46251,7 +46251,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-zigbee-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp-zigbee-lib-Kconfig-1",
+                "id": "component-config-zigbee-managed_components-espressif__esp-zigbee-lib-Kconfig-1",
                 "title": "Zigbee",
                 "type": "menu"
             },
@@ -46292,7 +46292,7 @@
                         ],
                         "depends_on": null,
                         "help": "This option configures the place to store diagnostics data: RTC memory or Flash.\n\nFlash store needs an additional partition table entry.\nNOTE: Diagnostics data partition must be encrypted if Flash Encryption is enabled.",
-                        "id": "component-config-diagnostics-data-store-diagnostics-data-store-destination-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_diag_data_store-Kconfig-3",
+                        "id": "component-config-diagnostics-data-store-diagnostics-data-store-destination-managed_components-espressif__esp_diag_data_store-Kconfig-3",
                         "name": "DIAG_DATA_STORE_RTC_OR_FLASH",
                         "title": "Diagnostics data store destination",
                         "type": "choice"
@@ -46350,7 +46350,7 @@
                             }
                         ],
                         "depends_on": "DIAG_DATA_STORE_RTC",
-                        "id": "component-config-diagnostics-data-store-rtc-store-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_diag_data_store-Kconfig-39",
+                        "id": "component-config-diagnostics-data-store-rtc-store-managed_components-espressif__esp_diag_data_store-Kconfig-39",
                         "title": "RTC Store",
                         "type": "menu"
                     },
@@ -46378,7 +46378,7 @@
                             }
                         ],
                         "depends_on": "DIAG_DATA_STORE_RAM",
-                        "id": "component-config-diagnostics-data-store-ram-store-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_diag_data_store-Kconfig-64",
+                        "id": "component-config-diagnostics-data-store-ram-store-managed_components-espressif__esp_diag_data_store-Kconfig-64",
                         "title": "RAM Store",
                         "type": "menu"
                     },
@@ -46396,13 +46396,13 @@
                             }
                         ],
                         "depends_on": "DIAG_DATA_STORE_FLASH",
-                        "id": "component-config-diagnostics-data-store-flash-store-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_diag_data_store-Kconfig-83",
+                        "id": "component-config-diagnostics-data-store-flash-store-managed_components-espressif__esp_diag_data_store-Kconfig-83",
                         "title": "Flash Store",
                         "type": "menu"
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-diagnostics-data-store-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_diag_data_store-Kconfig-1",
+                "id": "component-config-diagnostics-data-store-managed_components-espressif__esp_diag_data_store-Kconfig-1",
                 "title": "Diagnostics data store",
                 "type": "menu"
             },
@@ -46433,7 +46433,7 @@
                         ],
                         "depends_on": null,
                         "help": "For error/warning/event logs, diagnostics module collects program counter, timestamp,\ntag, RO data pointer and log arguments. Log arguments are stored in statically allocated buffer.\nThis option configures how to format and store log arguments in buffer.\nLog arguments can be formatted as TLV or complete log string formatted using vsnprintf.\n\nIf \"TLV\" is selected, buffer contains arguments formatted as TLV.\nType - 1 byte for the type of argument, please check esp_diag_arg_type_t.\nLength - 1 byte for the size of argument, size is calculated using sizeof operator.\nValue - Size bytes for the value.\n\nIf \"STRING\" is selected, buffer contains the entire string formatted using vsnprintf.",
-                        "id": "component-config-diagnostics-diagnostics-log-argument-format-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_diagnostics-Kconfig-2",
+                        "id": "component-config-diagnostics-diagnostics-log-argument-format-managed_components-espressif__esp_diagnostics-Kconfig-2",
                         "name": "DIAG_LOG_MSG_ARG_FORMAT",
                         "title": "Diagnostics log argument format",
                         "type": "choice"
@@ -46594,7 +46594,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-diagnostics-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_diagnostics-Kconfig-1",
+                "id": "component-config-diagnostics-managed_components-espressif__esp_diagnostics-Kconfig-1",
                 "title": "Diagnostics",
                 "type": "menu"
             },
@@ -46667,7 +46667,7 @@
                         ],
                         "depends_on": null,
                         "help": "By default insights can send data to cloud using MQTT and HTTPS transports.\nThis option configures the default insights transport.\nInsights transport can be overridden using esp_insights_transport_register API.",
-                        "id": "component-config-esp-insights-insights-default-transport-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_insights-Kconfig-35",
+                        "id": "component-config-esp-insights-insights-default-transport-managed_components-espressif__esp_insights-Kconfig-35",
                         "name": "ESP_INSIGHTS_TRANSPORT",
                         "title": "Insights default transport",
                         "type": "choice"
@@ -46724,7 +46724,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-esp-insights-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_insights-Kconfig-1",
+                "id": "component-config-esp-insights-managed_components-espressif__esp_insights-Kconfig-1",
                 "title": "ESP Insights",
                 "type": "menu"
             },
@@ -46863,7 +46863,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-esp-modem-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_modem-Kconfig-1",
+                "id": "component-config-esp-modem-managed_components-espressif__esp_modem-Kconfig-1",
                 "title": "esp-modem",
                 "type": "menu"
             },
@@ -46881,7 +46881,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-esp-schedule-configuration-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_schedule-Kconfig-1",
+                "id": "component-config-esp-schedule-configuration-managed_components-espressif__esp_schedule-Kconfig-1",
                 "title": "ESP Schedule Configuration",
                 "type": "menu"
             },
@@ -46929,7 +46929,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-esp-secure-cert-manager-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__esp_secure_cert_mgr-Kconfig-1",
+                "id": "component-config-esp-secure-cert-manager-managed_components-espressif__esp_secure_cert_mgr-Kconfig-1",
                 "title": "ESP Secure Cert Manager",
                 "type": "menu"
             },
@@ -46967,7 +46967,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-jsmn-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__jsmn-Kconfig-1",
+                "id": "component-config-jsmn-managed_components-espressif__jsmn-Kconfig-1",
                 "title": "jsmn",
                 "type": "menu"
             },
@@ -46985,7 +46985,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-libsodium-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__libsodium-Kconfig-1",
+                "id": "component-config-libsodium-managed_components-espressif__libsodium-Kconfig-1",
                 "title": "libsodium",
                 "type": "menu"
             },
@@ -47085,7 +47085,7 @@
                         ],
                         "depends_on": null,
                         "help": "Allows setting mDNS tasks affinity, i.e. whether the task is pinned to\nCPU0, pinned to CPU1, or allowed to run on any CPU.",
-                        "id": "component-config-mdns-mdns-task-affinity-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__mdns-Kconfig-41",
+                        "id": "component-config-mdns-mdns-task-affinity-managed_components-espressif__mdns-Kconfig-41",
                         "name": "MDNS_TASK_AFFINITY",
                         "title": "mDNS task affinity",
                         "type": "choice"
@@ -47127,7 +47127,7 @@
                                 ],
                                 "depends_on": null,
                                 "help": null,
-                                "id": "component-config-mdns-mdns-memory-configuration-select-mdns-task-create-on-which-type-of-memory-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__mdns-Kconfig-66",
+                                "id": "component-config-mdns-mdns-memory-configuration-select-mdns-task-create-on-which-type-of-memory-managed_components-espressif__mdns-Kconfig-66",
                                 "name": "MDNS_TASK_MEMORY_ALLOC_FROM",
                                 "title": "Select mDNS task create on which type of memory",
                                 "type": "choice"
@@ -47157,7 +47157,7 @@
                                 ],
                                 "depends_on": null,
                                 "help": null,
-                                "id": "component-config-mdns-mdns-memory-configuration-select-mdns-memory-allocation-type-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__mdns-Kconfig-83",
+                                "id": "component-config-mdns-mdns-memory-configuration-select-mdns-memory-allocation-type-managed_components-espressif__mdns-Kconfig-83",
                                 "name": "MDNS_MEMORY_ALLOC_FROM",
                                 "title": "Select mDNS memory allocation type",
                                 "type": "choice"
@@ -47174,7 +47174,7 @@
                             }
                         ],
                         "depends_on": null,
-                        "id": "component-config-mdns-mdns-memory-configuration-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__mdns-Kconfig-64",
+                        "id": "component-config-mdns-mdns-memory-configuration-managed_components-espressif__mdns-Kconfig-64",
                         "title": "MDNS Memory Configuration",
                         "type": "menu"
                     },
@@ -47269,6 +47269,16 @@
                     {
                         "children": [],
                         "depends_on": null,
+                        "help": "Enable continuous browse APIs (mdns_browse_new / mdns_browse_delete)\nand the related receive/send paths. Disable to save ~3\u20134 KB of flash\nwhen the application only advertises services or uses one-shot queries.",
+                        "id": "MDNS_ENABLE_BROWSE",
+                        "name": "MDNS_ENABLE_BROWSE",
+                        "range": null,
+                        "title": "Enable mDNS browse (daemon service discovery)",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
                         "help": "Enables support for IPv4 reverse lookup. If enabled, the mDNS library\nresponse to PTR queries of \"A.B.C.D.in-addr.arpa\" type.",
                         "id": "MDNS_RESPOND_REVERSE_QUERIES",
                         "name": "MDNS_RESPOND_REVERSE_QUERIES",
@@ -47320,13 +47330,13 @@
                             }
                         ],
                         "depends_on": null,
-                        "id": "component-config-mdns-mdns-predefined-interfaces-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__mdns-Kconfig-178",
+                        "id": "component-config-mdns-mdns-predefined-interfaces-managed_components-espressif__mdns-Kconfig-186",
                         "title": "MDNS Predefined interfaces",
                         "type": "menu"
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-mdns-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__mdns-Kconfig-1",
+                "id": "component-config-mdns-managed_components-espressif__mdns-Kconfig-1",
                 "title": "mDNS",
                 "type": "menu"
             },
@@ -47357,7 +47367,7 @@
                         ],
                         "depends_on": null,
                         "help": null,
-                        "id": "component-config-network-provisioning-manager-network-type-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__network_provisioning-Kconfig-3",
+                        "id": "component-config-network-provisioning-manager-network-type-managed_components-espressif__network_provisioning-Kconfig-3",
                         "name": "NETWORK_PROV_NETWORK_TYPE",
                         "title": "Network Type",
                         "type": "choice"
@@ -47464,14 +47474,14 @@
                         ],
                         "depends_on": "NETWORK_PROV_NETWORK_TYPE_WIFI",
                         "help": null,
-                        "id": "component-config-network-provisioning-manager-wifi-provisioning-scan-method-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__network_provisioning-Kconfig-67",
+                        "id": "component-config-network-provisioning-manager-wifi-provisioning-scan-method-managed_components-espressif__network_provisioning-Kconfig-67",
                         "name": "NETWORK_PROV_WIFI_STA_SCAN_METHOD",
                         "title": "Wifi Provisioning Scan Method",
                         "type": "choice"
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-network-provisioning-manager-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__network_provisioning-Kconfig-1",
+                "id": "component-config-network-provisioning-manager-managed_components-espressif__network_provisioning-Kconfig-1",
                 "title": "Network Provisioning Manager",
                 "type": "menu"
             },
@@ -47489,7 +47499,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-esp-rainmaker-command-response-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__rmaker_cmd_resp-Kconfig-1",
+                "id": "component-config-esp-rainmaker-command-response-managed_components-espressif__rmaker_cmd_resp-Kconfig-1",
                 "title": "ESP RainMaker Command-Response",
                 "type": "menu"
             },
@@ -47520,7 +47530,7 @@
                         ],
                         "depends_on": null,
                         "help": "MQTT Library to be used",
-                        "id": "component-config-esp-rainmaker-common-mqtt-library-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__rmaker_common-Kconfig-3",
+                        "id": "component-config-esp-rainmaker-common-mqtt-library-managed_components-espressif__rmaker_common-Kconfig-3",
                         "name": "ESP_RMAKER_MQTT_GLUE_LIB",
                         "title": "MQTT Library",
                         "type": "choice"
@@ -47560,7 +47570,7 @@
                         ],
                         "depends_on": null,
                         "help": "ESP RainMaker MQTT Broker can be connected to either on Port 8883 or port 443.\nPort 443 is recommended as it is generally not blocked by any firewalls,\nsince it is standard HTTPS port.",
-                        "id": "component-config-esp-rainmaker-common-mqtt-port-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__rmaker_common-Kconfig-20",
+                        "id": "component-config-esp-rainmaker-common-mqtt-port-managed_components-espressif__rmaker_common-Kconfig-20",
                         "name": "ESP_RMAKER_MQTT_PORT",
                         "title": "MQTT Port",
                         "type": "choice"
@@ -47702,7 +47712,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-esp-rainmaker-common-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__rmaker_common-Kconfig-1",
+                "id": "component-config-esp-rainmaker-common-managed_components-espressif__rmaker_common-Kconfig-1",
                 "title": "ESP RainMaker Common",
                 "type": "menu"
             },
@@ -47740,7 +47750,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-esp-rainmaker-console-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__rmaker_console-Kconfig-1",
+                "id": "component-config-esp-rainmaker-console-managed_components-espressif__rmaker_console-Kconfig-1",
                 "title": "ESP RainMaker Console",
                 "type": "menu"
             },
@@ -47768,7 +47778,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-esp-rainmaker-time-sync-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__rmaker_time_sync-Kconfig-1",
+                "id": "component-config-esp-rainmaker-time-sync-managed_components-espressif__rmaker_time_sync-Kconfig-1",
                 "title": "ESP RainMaker Time Sync",
                 "type": "menu"
             },
@@ -47796,7 +47806,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-esp-rainmaker-work-queue-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-espressif__rmaker_work_queue-Kconfig-1",
+                "id": "component-config-esp-rainmaker-work-queue-managed_components-espressif__rmaker_work_queue-Kconfig-1",
                 "title": "ESP RainMaker Work Queue",
                 "type": "menu"
             },
@@ -47959,7 +47969,7 @@
                         ],
                         "depends_on": "LITTLEFS_USE_MTIME",
                         "help": "Save an additional 4-byte attribute. Options listed below.",
-                        "id": "component-config-littlefs-mtime-attribute-options-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-joltwallet__littlefs-Kconfig-107",
+                        "id": "component-config-littlefs-mtime-attribute-options-managed_components-joltwallet__littlefs-Kconfig-107",
                         "name": "LITTLEFS_MTIME",
                         "title": "mtime attribute options",
                         "type": "choice"
@@ -48052,7 +48062,7 @@
                                 ],
                                 "depends_on": "LITTLEFS_MULTIVERSION",
                                 "help": "See LITTLEFS_MULTIVERSION for details.",
-                                "id": "component-config-littlefs-support-selecting-the-littlefs-minor-version-to-write-to-disk-littlefs_disk_version-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-joltwallet__littlefs-Kconfig-201",
+                                "id": "component-config-littlefs-support-selecting-the-littlefs-minor-version-to-write-to-disk-littlefs_disk_version-managed_components-joltwallet__littlefs-Kconfig-201",
                                 "name": "LITTLEFS_DISK_VERSION",
                                 "title": "LITTLEFS_DISK_VERSION",
                                 "type": "choice"
@@ -48121,7 +48131,7 @@
                         ],
                         "depends_on": null,
                         "help": "Maps lfs_malloc to ESP-IDF capabilities-based memory allocator or\ndisables dynamic allocation in favour of user-provided static buffers.",
-                        "id": "component-config-littlefs-buffer-allocation-strategy-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-joltwallet__littlefs-Kconfig-219",
+                        "id": "component-config-littlefs-buffer-allocation-strategy-managed_components-joltwallet__littlefs-Kconfig-219",
                         "name": "LITTLEFS_MALLOC_STRATEGY",
                         "title": "Buffer allocation strategy",
                         "type": "choice"
@@ -48158,7 +48168,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-littlefs-home-hukasigi-Documents-PlatformIO-Projects-robocon-esp32s3-controller-1-managed_components-joltwallet__littlefs-Kconfig-1",
+                "id": "component-config-littlefs-managed_components-joltwallet__littlefs-Kconfig-1",
                 "title": "LittleFS",
                 "type": "menu"
             }

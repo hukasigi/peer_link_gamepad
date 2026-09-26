@@ -4,5 +4,5 @@ source "/home/hukasigi/.platformio/packages/framework-espidf/components/esp_rom/
 source "/home/hukasigi/.platformio/packages/framework-espidf/components/esptool_py/Kconfig.projbuild"
 source "/home/hukasigi/.platformio/packages/framework-espidf/components/partition_table/Kconfig.projbuild"
 source "/home/hukasigi/.platformio/packages/framework-arduinoespressif32/Kconfig.projbuild"
-source "/home/hukasigi/Documents/PlatformIO/Projects/robocon-esp32s3-controller-1/managed_components/espressif__esp-sr/Kconfig.projbuild"
-source "/home/hukasigi/Documents/PlatformIO/Projects/robocon-esp32s3-controller-1/managed_components/espressif__esp_rainmaker/Kconfig.projbuild"
+source "/home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/managed_components/espressif__esp-sr/Kconfig.projbuild"
+source "/home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/managed_components/espressif__esp_rainmaker/Kconfig.projbuild"

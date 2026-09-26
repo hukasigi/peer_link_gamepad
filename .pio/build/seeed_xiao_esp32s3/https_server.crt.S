@@ -1,4 +1,4 @@
-/* * Data converted from /home/hukasigi/Documents/PlatformIO/Projects/robocon-esp32s3-controller-1/managed_components/espressif__esp_insights/server_certs/https_server.crt
+/* * Data converted from /home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/managed_components/espressif__esp_insights/server_certs/https_server.crt
  * (null byte appended)
  */
 .data

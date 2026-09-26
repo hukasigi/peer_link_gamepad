@@ -13,8 +13,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file /home/hukasigi/Documents/PlatformIO/Projects/robocon-esp32s3-controller-1/.pio/build/seeed_xiao_esp32s3/bootloader/bootloader.elf
+    add-symbol-file /home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/.pio/build/seeed_xiao_esp32s3/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file /home/hukasigi/Documents/PlatformIO/Projects/robocon-esp32s3-controller-1/.pio/build/seeed_xiao_esp32s3/robocon-esp32s3-controller.elf
+file /home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/.pio/build/seeed_xiao_esp32s3/robocon-esp32s3-controller.elf

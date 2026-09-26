@@ -1,4 +1,4 @@
-# Install script for directory: /home/hukasigi/Documents/PlatformIO/Projects/robocon-esp32s3-controller-1/managed_components/espressif__mdns
+# Install script for directory: /home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/managed_components/espressif__mdns
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/hukasigi/Documents/PlatformIO/Projects/robocon-esp32s3-controller-1/.pio/build/seeed_xiao_esp32s3/esp-idf/espressif__mdns/install_local_manifest.txt"
+  file(WRITE "/home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/.pio/build/seeed_xiao_esp32s3/esp-idf/espressif__mdns/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

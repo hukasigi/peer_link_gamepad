@@ -8,7 +8,7 @@ dependencies:
     version: ^1.0.0
   espressif/rmaker_common_events:
     require: public
-    version: ^1.0.0
+    version: ^1.1.0
   espressif/rmaker_console:
     require: public
     version: ^1.0.0
@@ -25,7 +25,7 @@ dependencies:
 description: ESP RainMaker firmware agent Common component
 repository: git://github.com/espressif/esp-rainmaker-common.git
 repository_info:
-  commit_sha: 83f1fbfd1a7fae5bc48beccb8ed9747bc2999b43
+  commit_sha: a746bb4ca879e320488306030cb952cdb123e9aa
   path: .
 url: https://github.com/espressif/esp-rainmaker-common
-version: 1.8.5
+version: 1.9.0

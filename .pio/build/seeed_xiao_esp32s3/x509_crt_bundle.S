@@ -1,4 +1,4 @@
-/* * Data converted from /home/hukasigi/Documents/PlatformIO/Projects/robocon-esp32s3-controller-1/.pio/build/seeed_xiao_esp32s3/x509_crt_bundle
+/* * Data converted from /home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/.pio/build/seeed_xiao_esp32s3/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

@@ -1,4 +1,4 @@
-/* * Data converted from /home/hukasigi/Documents/PlatformIO/Projects/robocon-esp32s3-controller-1/managed_components/espressif__esp_rainmaker/server_certs/rmaker_claim_service_server.crt
+/* * Data converted from /home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/managed_components/espressif__esp_rainmaker/server_certs/rmaker_claim_service_server.crt
  * (null byte appended)
  */
 .data
