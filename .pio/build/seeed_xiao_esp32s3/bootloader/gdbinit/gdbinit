@@ -1,0 +1,2 @@
+source /home/hukasigi/Documents/PlatformIO/Projects/robocon-esp32s3-controller-1/.pio/build/seeed_xiao_esp32s3/bootloader/gdbinit/symbols
+source /home/hukasigi/Documents/PlatformIO/Projects/robocon-esp32s3-controller-1/.pio/build/seeed_xiao_esp32s3/bootloader/gdbinit/connect
