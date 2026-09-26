@@ -1,20 +1,16 @@
 #include "gamepad.h"
 #include <Arduino.h>
 #include <peer_link.h>
-
 #define TAG "App"
-
-const uint8_t   LED_PIN            = 21;
-const uint8_t   WIFI_CHANNEL       = 14;
-const peer_id_t TO_PEER_ID         = 0x11;
-const peer_id_t PEER_ID            = 0x13;
-const uint8_t   GAMEPAD_TIMEOUT_MS = 250;
-
+const uint8_t      LED_PIN            = 21;
+const uint8_t      WIFI_CHANNEL       = 14;
+const peer_id_t    TO_PEER_ID         = 0x11;
+const peer_id_t    PEER_ID            = 0x13;
+const uint8_t      GAMEPAD_TIMEOUT_MS = 250;
 struct GamepadData gamepad_data;
 Gamepad            gamepad = Gamepad();
 uint32_t           last_receive_gamepad;
-
-void peer_link_recv_cb(const peer_id_t peer_id, const std::vector<struct Message>& messages) {}
+void               peer_link_recv_cb(const peer_id_t peer_id, const std::vector<struct Message>& messages) {}
 
 void update_gamepad_data() {
     if (gamepad_poll(&gamepad_data)) {
@@ -27,13 +23,11 @@ void update_gamepad_data() {
         ESP_LOGW(TAG, "Gamepad timeout.");
     }
 }
-
 void setup() {
     cherryusb_task_init(LED_PIN);
     peer_link_task_init(WIFI_CHANNEL, PEER_ID);
     last_receive_gamepad = millis();
 }
-
 void loop() {
     update_gamepad_data();
     std::vector<struct Message> messages;

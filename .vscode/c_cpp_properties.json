@@ -670,7 +670,7 @@
                 "BOARD_HAS_PSRAM",
                 "CJSON_CIRCULAR_LIMIT=10000",
                 "CJSON_NESTING_LIMIT=1000",
-                "ESP_MDNS_VERSION_NUMBER=\"1.11.3\"",
+                "ESP_MDNS_VERSION_NUMBER=\"1.13.1\"",
                 "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\"",
                 "MB_MDNS_IS_INCLUDED",
                 "ARDUINO=10812",
