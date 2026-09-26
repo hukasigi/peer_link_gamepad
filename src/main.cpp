@@ -5,7 +5,7 @@
 const uint8_t      LED_PIN            = 21;
 const uint8_t      WIFI_CHANNEL       = 14;
 const peer_id_t    TO_PEER_ID         = 0x11;
-const peer_id_t    PEER_ID            = 0x13;
+const peer_id_t    FROM_PEER_ID       = 0x13;
 const uint8_t      GAMEPAD_TIMEOUT_MS = 250;
 struct GamepadData gamepad_data;
 Gamepad            gamepad = Gamepad();
@@ -25,7 +25,7 @@ void update_gamepad_data() {
 }
 void setup() {
     cherryusb_task_init(LED_PIN);
-    peer_link_task_init(WIFI_CHANNEL, PEER_ID);
+    peer_link_task_init(WIFI_CHANNEL, FROM_PEER_ID);
     last_receive_gamepad = millis();
 }
 void loop() {
