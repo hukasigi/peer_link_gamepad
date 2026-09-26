@@ -1,0 +1,6 @@
+[submodule "lib/utility"]
+	path = lib/utility
+	url = git@github.com:NiiRoboKen/robocon_2026_utility.git
+[submodule "lib/peer_link"]
+	path = lib/peer_link
+	url = git@github.com:hukasigi/peer-link_hukas.git
