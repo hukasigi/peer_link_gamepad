@@ -10,9 +10,9 @@
             "includePath": [
                 "/home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/include",
                 "/home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/src",
-                "/home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/lib/peer_link/src",
                 "/home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/lib/utility/include",
                 "/home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/lib/utility",
+                "/home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/lib/peer_link/src",
                 "/home/hukasigi/.platformio/packages/framework-espidf/components/xtensa/esp32s3/include",
                 "/home/hukasigi/.platformio/packages/framework-espidf/components/xtensa/include",
                 "/home/hukasigi/.platformio/packages/framework-espidf/components/xtensa/deprecated_include",
@@ -334,9 +334,9 @@
                 "path": [
                     "/home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/include",
                     "/home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/src",
-                    "/home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/lib/peer_link/src",
                     "/home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/lib/utility/include",
                     "/home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/lib/utility",
+                    "/home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/lib/peer_link/src",
                     "/home/hukasigi/.platformio/packages/framework-espidf/components/xtensa/esp32s3/include",
                     "/home/hukasigi/.platformio/packages/framework-espidf/components/xtensa/include",
                     "/home/hukasigi/.platformio/packages/framework-espidf/components/xtensa/deprecated_include",

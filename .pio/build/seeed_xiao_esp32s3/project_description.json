@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "robocon-esp32s3-controller",
-    "project_version":    "b4b7100-dirty",
+    "project_version":    "d44fead-dirty",
     "project_path":       "/home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad",
     "idf_path":           "/home/hukasigi/.platformio/packages/framework-espidf",
     "build_dir":          "/home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/.pio/build/seeed_xiao_esp32s3",

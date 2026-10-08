@@ -3,9 +3,8 @@
 #include <peer_link.h>
 #define TAG "App"
 const uint8_t      LED_PIN            = 21;
-const uint8_t      WIFI_CHANNEL       = 14;
-const peer_id_t    TO_PEER_ID         = 0x11;
-const peer_id_t    FROM_PEER_ID       = 0x13;
+const peer_id_t    TO_PEER_ID         = SWERVE_S3_ID;
+const peer_id_t    FROM_PEER_ID       = Gamepad_ESP_ID;
 const uint8_t      GAMEPAD_TIMEOUT_MS = 250;
 struct GamepadData gamepad_data;
 Gamepad            gamepad = Gamepad();
