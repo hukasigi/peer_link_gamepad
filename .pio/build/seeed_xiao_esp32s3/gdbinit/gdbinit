@@ -1,2 +1,2 @@
-source /home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/.pio/build/seeed_xiao_esp32s3/gdbinit/symbols
-source /home/hukasigi/Documents/PlatformIO/Projects/peer-link_gamepad/.pio/build/seeed_xiao_esp32s3/gdbinit/connect
+source /home/netetra/git/netetra/peer_link_gamepad/.pio/build/seeed_xiao_esp32s3/gdbinit/symbols
+source /home/netetra/git/netetra/peer_link_gamepad/.pio/build/seeed_xiao_esp32s3/gdbinit/connect

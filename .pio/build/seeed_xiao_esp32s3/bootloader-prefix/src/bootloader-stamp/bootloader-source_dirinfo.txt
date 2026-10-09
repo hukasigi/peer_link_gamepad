@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/home/hukasigi/.platformio/packages/framework-espidf/components/bootloader/subproject
+source_dir=/home/netetra/.platformio/packages/framework-espidf/components/bootloader/subproject
 work_dir=
 

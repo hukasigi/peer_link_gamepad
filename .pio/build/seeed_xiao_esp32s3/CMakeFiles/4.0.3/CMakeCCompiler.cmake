@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc")
+set(CMAKE_C_COMPILER "/home/netetra/.platformio/packages/toolchain-xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "14.2.0")
@@ -20,15 +20,15 @@ set(CMAKE_C_COMPILER_FRONTEND_VARIANT "GNU")
 set(CMAKE_C_COMPILER_APPLE_SYSROOT "")
 set(CMAKE_C_SIMULATE_VERSION "")
 
-set(CMAKE_C_COMPILER_SYSROOT "/home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/bin/../xtensa-esp-elf/usr")
-set(CMAKE_COMPILER_SYSROOT "/home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/bin/../xtensa-esp-elf/usr")
+set(CMAKE_C_COMPILER_SYSROOT "/home/netetra/.platformio/packages/toolchain-xtensa-esp-elf/bin/../xtensa-esp-elf/usr")
+set(CMAKE_COMPILER_SYSROOT "/home/netetra/.platformio/packages/toolchain-xtensa-esp-elf/bin/../xtensa-esp-elf/usr")
 
 
-set(CMAKE_AR "/home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/bin/xtensa-esp32s3-elf-ar")
-set(CMAKE_C_COMPILER_AR "/home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar")
-set(CMAKE_RANLIB "/home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/bin/xtensa-esp32s3-elf-ranlib")
-set(CMAKE_C_COMPILER_RANLIB "/home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib")
-set(CMAKE_LINKER "/home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/bin/xtensa-esp32s3-elf-ld")
+set(CMAKE_AR "/home/netetra/.platformio/packages/toolchain-xtensa-esp-elf/bin/xtensa-esp32s3-elf-ar")
+set(CMAKE_C_COMPILER_AR "/home/netetra/.platformio/packages/toolchain-xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar")
+set(CMAKE_RANLIB "/home/netetra/.platformio/packages/toolchain-xtensa-esp-elf/bin/xtensa-esp32s3-elf-ranlib")
+set(CMAKE_C_COMPILER_RANLIB "/home/netetra/.platformio/packages/toolchain-xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib")
+set(CMAKE_LINKER "/home/netetra/.platformio/packages/toolchain-xtensa-esp-elf/bin/xtensa-esp32s3-elf-ld")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
 set(CMAKE_C_COMPILER_LINKER "NOTFOUND")
@@ -79,7 +79,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include;/home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include-fixed;/home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/xtensa-esp-elf/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/home/netetra/.platformio/packages/toolchain-xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include;/home/netetra/.platformio/packages/toolchain-xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include-fixed;/home/netetra/.platformio/packages/toolchain-xtensa-esp-elf/xtensa-esp-elf/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;c;nosys;c;gcc")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3;/home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3;/home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0;/home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/lib/gcc;/home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/xtensa-esp-elf/lib;/home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/xtensa-esp-elf/usr/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/home/netetra/.platformio/packages/toolchain-xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3;/home/netetra/.platformio/packages/toolchain-xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3;/home/netetra/.platformio/packages/toolchain-xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0;/home/netetra/.platformio/packages/toolchain-xtensa-esp-elf/lib/gcc;/home/netetra/.platformio/packages/toolchain-xtensa-esp-elf/xtensa-esp-elf/lib;/home/netetra/.platformio/packages/toolchain-xtensa-esp-elf/xtensa-esp-elf/usr/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
