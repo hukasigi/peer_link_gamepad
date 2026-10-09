@@ -32,6 +32,7 @@ void peer_link_recv_cb(const peer_id_t peer_id, const std::vector<struct Message
             struct PS4RumbleData *data = (struct PS4RumbleData*)(message.data.data());
             ps4_state.small_rumble = data->small_rumble;
             ps4_state.big_rumble = data->big_rumble;
+            rumble_duration = data->duration;
             rumble_start = millis();
         } else if (message.type == static_cast<uint8_t>(MessageType::PS4SetLED)) {
             struct PS4LedData *data = (struct PS4LedData*)(message.data.data());
