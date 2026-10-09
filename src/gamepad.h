@@ -1,6 +1,7 @@
 #pragma once
 
 #include "driver/general.h"
+#include "driver/ps4.h"
 #include "message.h"
 
 #define CONFIG_PRINT_RAW_REPORT_DATA 0
@@ -38,7 +39,7 @@ class Gamepad {
         struct GamepadData current_data;
 };
 
-bool gamepad_poll(struct GamepadData* gamepad_data);
+bool gamepad_poll(enum GamepadType *gamepad_type, void* buffer);
 void cherryusb_task_init(uint8_t led_pin);
 void print_gamepad_state(struct GamepadData* gamepad_data);
 

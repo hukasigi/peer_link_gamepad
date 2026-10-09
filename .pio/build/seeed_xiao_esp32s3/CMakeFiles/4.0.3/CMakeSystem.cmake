@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Linux-7.0.0-31-generic")
+set(CMAKE_HOST_SYSTEM "Linux-7.2.9-zen1-1-zen")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "7.0.0-31-generic")
+set(CMAKE_HOST_SYSTEM_VERSION "7.2.9-zen1-1-zen")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/hukasigi/.platformio/packages/framework-espidf/tools/cmake/toolchain-esp32s3.cmake")
+include("/home/netetra/.platformio/packages/framework-espidf/tools/cmake/toolchain-esp32s3.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")
