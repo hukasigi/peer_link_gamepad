@@ -1,3 +1,0 @@
--Wl,-Map=/home/netetra/git/netetra/peer_link_gamepad/.pio/build/seeed_xiao_esp32s3/firmware.map
--nostartfiles
--fno-rtti
