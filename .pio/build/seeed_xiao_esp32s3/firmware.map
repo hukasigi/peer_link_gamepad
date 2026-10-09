@@ -8,7 +8,7 @@ Name             Origin             Length             Attributes
 
 Linker script and memory map
 
-LOAD CMakeFiles/cmTC_3c61d.dir/CMakeCXXCompilerABI.cpp.obj
+LOAD CMakeFiles/cmTC_c578d.dir/CMakeCXXCompilerABI.cpp.obj
 LOAD /home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a
 LOAD /home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libm.a
 LOAD /home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/no-rtti/libgcc.a
@@ -67,8 +67,8 @@ LOAD /home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/bin/../lib/gcc
  *(.init.literal)
  *(SORT_NONE(.init))
  *(.literal .text .stub .literal.* .text.* .gnu.linkonce.literal.* .gnu.linkonce.t.*.literal .gnu.linkonce.t.*)
- .literal       0x00400054       0x10 CMakeFiles/cmTC_3c61d.dir/CMakeCXXCompilerABI.cpp.obj
- .text          0x00400064       0x5f CMakeFiles/cmTC_3c61d.dir/CMakeCXXCompilerABI.cpp.obj
+ .literal       0x00400054       0x10 CMakeFiles/cmTC_c578d.dir/CMakeCXXCompilerABI.cpp.obj
+ .text          0x00400064       0x5f CMakeFiles/cmTC_c578d.dir/CMakeCXXCompilerABI.cpp.obj
                 0x00400064                main
  *(.gnu.warning)
  *(.fini.literal)
@@ -79,7 +79,7 @@ LOAD /home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/bin/../lib/gcc
 
 .rodata         0x004000c4       0x66
  *(.rodata .rodata.* .gnu.linkonce.r.*)
- .rodata        0x004000c4       0x66 CMakeFiles/cmTC_3c61d.dir/CMakeCXXCompilerABI.cpp.obj
+ .rodata        0x004000c4       0x66 CMakeFiles/cmTC_c578d.dir/CMakeCXXCompilerABI.cpp.obj
 
 .rodata1
  *(.rodata1)
@@ -164,7 +164,7 @@ LOAD /home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/bin/../lib/gcc
 
 .data           0x0040112a        0x0
  *(.data .data.* .gnu.linkonce.d.*)
- .data          0x0040112a        0x0 CMakeFiles/cmTC_3c61d.dir/CMakeCXXCompilerABI.cpp.obj
+ .data          0x0040112a        0x0 CMakeFiles/cmTC_c578d.dir/CMakeCXXCompilerABI.cpp.obj
 
 .data1
  *(.data1)
@@ -185,7 +185,7 @@ LOAD /home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/bin/../lib/gcc
 .bss            0x0040112a        0x0
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x0040112a        0x0 CMakeFiles/cmTC_3c61d.dir/CMakeCXXCompilerABI.cpp.obj
+ .bss           0x0040112a        0x0 CMakeFiles/cmTC_c578d.dir/CMakeCXXCompilerABI.cpp.obj
  *(COMMON)
                 0x0040112a                        . = ALIGN ((. != 0x0)?0x4:0x1)
                 0x0040112c                        . = ALIGN (0x4)
@@ -214,11 +214,11 @@ LOAD /home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/bin/../lib/gcc
 
 .comment        0x00000000       0x2f
  *(.comment)
- .comment       0x00000000       0x2f CMakeFiles/cmTC_3c61d.dir/CMakeCXXCompilerABI.cpp.obj
+ .comment       0x00000000       0x2f CMakeFiles/cmTC_c578d.dir/CMakeCXXCompilerABI.cpp.obj
                                  0x30 (size before relaxing)
 
 .xtensa.info    0x00000000       0x38
- .xtensa.info   0x00000000       0x38 CMakeFiles/cmTC_3c61d.dir/CMakeCXXCompilerABI.cpp.obj
+ .xtensa.info   0x00000000       0x38 CMakeFiles/cmTC_c578d.dir/CMakeCXXCompilerABI.cpp.obj
 
 .gnu.build.attributes
  *(.gnu.build.attributes .gnu.build.attributes.*)
@@ -309,18 +309,18 @@ LOAD /home/hukasigi/.platformio/packages/toolchain-xtensa-esp-elf/bin/../lib/gcc
 
 .xt.lit         0x00000000        0x8
  *(.xt.lit .xt.lit.* .gnu.linkonce.p.*)
- .xt.lit        0x00000000        0x8 CMakeFiles/cmTC_3c61d.dir/CMakeCXXCompilerABI.cpp.obj
+ .xt.lit        0x00000000        0x8 CMakeFiles/cmTC_c578d.dir/CMakeCXXCompilerABI.cpp.obj
 
 .xt.insn
  *(.xt.insn .gnu.linkonce.x.*)
 
 .xt.prop        0x00000000       0x54
  *(.xt.prop .xt.prop.* .gnu.linkonce.prop.*)
- .xt.prop       0x00000000       0x54 CMakeFiles/cmTC_3c61d.dir/CMakeCXXCompilerABI.cpp.obj
+ .xt.prop       0x00000000       0x54 CMakeFiles/cmTC_c578d.dir/CMakeCXXCompilerABI.cpp.obj
                                  0x60 (size before relaxing)
 
 /DISCARD/
  *(.note.GNU-stack)
  *(.gnu_debuglink)
  *(.gnu.lto_*)
-OUTPUT(cmTC_3c61d elf32-xtensa-le)
+OUTPUT(cmTC_c578d elf32-xtensa-le)
